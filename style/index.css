@@ -143,6 +143,7 @@ html,
 body {
     font-size: 62.5%;
     font-family: 'Josefin Slab', serif;
+    box-sizing: boder-box;
 }
 
 body {
@@ -158,20 +159,21 @@ header {
 
 h1 {
     font-size: 4rem;
-    margin: 1% 0% .5% 1%;
+    margin: 20px 0px 0px 20px;
     color: #eee;
 }
 
 header nav {
     display: flex;
     justify-content: flex-start;
-    margin: .5% 1%;
+    margin: 5px;
     font-size: 2.4rem;
 }
 
 header nav a {
-    padding: .25%;
+    padding: 2px;
     border: 1px solid #eee;
+    margin: 0px 2.5px;
     color: #eee;
     background-color: #855bcf;
     text-decoration: none;
@@ -182,23 +184,41 @@ header nav a:hover {
     background-color: #eee;
 }
 
+footer, footer a {
+background-color: #eee;
+color: #201e21;
+font-size: 2rem;
+text-align: center;
+}
+
+footer{
+margin-top: 50px;
+}
+
+footer p {
+padding:.5%;
+}
+
+footer a:hover {
+color: #0996ed;
+}
+
 #portrait {
-    width: 50%;
-    height: auto;
-    margin: 1%;
+    width: 300px;
+    height: 300px;
+    margin: 5% 0% 5% 0%;
     border-radius: 10%;
 }
 
 #name {
     font-size: 3.2rem;
-    margin: 34% 0% 5% 0%;
+    margin: 33% 0% 10% 0%;
 }
 
 #section1-5 {
     display: flex;
     flex-direction: column;
     width: 34%;
-    text-align: center;
 }
 
 #section1-5 a {
@@ -217,13 +237,23 @@ header nav a:hover {
 }
 
 #info {
-    margin: 5% 0%;
+    margin: 15% 0%;
     font-size: 2rem;
-    text-align: ;
+    text-align: left;
 }
 
 .section1 {
     display: flex;
     justify-content: space-around;
     color: #eee;
+}
+
+.section2 {
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+
+.section2 img {
+width: 250px;
 }
