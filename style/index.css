@@ -1,1 +1,259 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* my original code */
+
+html,
+body {
+    font-size: 62.5%;
+    font-family: 'Josefin Slab', serif;
+    box-sizing: boder-box;
+}
+
+body {
+    background-color: #201e21;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #ed246a, #0996ed);
+    border-bottom: 1px solid #eee;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 20px 0px 0px 20px;
+    color: #eee;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    font-size: 2.4rem;
+}
+
+header nav a {
+    padding: 2px;
+    border: 1px solid #eee;
+    margin: 0px 2.5px;
+    color: #eee;
+    background-color: #855bcf;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #855bcf;
+    background-color: #eee;
+}
+
+footer, footer a {
+background-color: #eee;
+color: #201e21;
+font-size: 2rem;
+text-align: center;
+}
+
+footer{
+margin-top: 50px;
+}
+
+footer p {
+padding:.5%;
+}
+
+footer a:hover {
+color: #0996ed;
+}
+
+#portrait {
+    width: 300px;
+    height: 300px;
+    margin: 5% 0% 5% 0%;
+    border-radius: 10%;
+}
+
+#name {
+    font-size: 3.2rem;
+    margin: 33% 0% 10% 0%;
+}
+
+#section1-5 {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+}
+
+#section1-5 a {
+    font-size: 2.4rem;
+    padding: .5%;
+    border: 1px solid #eee;
+    color: #eee;
+    background-color: #0996ed;
+    text-decoration: none;
+}
+
+#section1-5 a:hover {
+    color: #eee;
+    background-color: #ed246a;
+    border: 1px solid #ed246a;
+}
+
+#info {
+    margin: 15% 0%;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    color: #eee;
+}
+
+.section2 {
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+
+.section2 img {
+width: 250px;
+}
