@@ -151,7 +151,7 @@ header {
 }
 
 h1 {
-    font-size: 3.2rem;
+    font-size: 4rem;
     margin: 1% 0% .5% 1%;
     color: #eee;
 }
@@ -160,7 +160,7 @@ header nav {
     display: flex;
     justify-content: flex-start;
     margin: 0% 1%;
-    font-size: 2.1rem;
+    font-size: 2.6rem;
 }
 
 header nav a {
@@ -178,22 +178,47 @@ header nav a:hover {
 }
 
 #portrait {
-    width: 23%;
+    width: 50%;
     height: auto;
     margin: 1%;
 }
 
 #name {
-    font-size: 2rem;
+    font-size: 3.2rem;
+    margin: 34% 0% 5% 0%;
 }
 
 #section1-5 {
     display: flex;
     flex-direction: column;
+    width: 34%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#section1-5 a {
+    font-size: 2.4rem;
+    padding: .5%;
+    border: 1px solid #201e21;
+    color: #eee;
+    background-color: #0996ed;
+    text-decoration: none;
+}
+
+#section1-5 a:hover {
+    color: #201e21;
+    background-color: #ed246a;
+    border: 1px solid #ed246a;
+}
+
+#info {
+    margin: 5% 0%;
+    font-size: 2rem;
 }
 
 .section1 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+    color: #201e21;
     border: 1px solid black;
 }
