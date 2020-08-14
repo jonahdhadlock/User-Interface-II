@@ -140,5 +140,11 @@ table {
 /* my original code */
 
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
+    font-family: 'Josefin Slab', serif;
+}
+
+.name {
+    font-size: 2.6rem;
+    color: #0996ed;
 }
