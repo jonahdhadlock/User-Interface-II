@@ -139,15 +139,21 @@ table {
 
 /* my original code */
 
-html {
+html,
+body {
     font-size: 62.5%;
     font-family: 'Josefin Slab', serif;
+}
+
+body {
+    background-color: #201e21;
 }
 
 header {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to right top, #ed246a, #0996ed);
+    border-bottom: 1px solid #eee;
 }
 
 h1 {
@@ -181,6 +187,7 @@ header nav a:hover {
     width: 50%;
     height: auto;
     margin: 1%;
+    border-radius: 10%;
 }
 
 #name {
@@ -192,21 +199,20 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     width: 34%;
-    border: 1px solid black;
     text-align: center;
 }
 
 #section1-5 a {
     font-size: 2.4rem;
     padding: .5%;
-    border: 1px solid #201e21;
+    border: 1px solid #eee;
     color: #eee;
     background-color: #0996ed;
     text-decoration: none;
 }
 
 #section1-5 a:hover {
-    color: #201e21;
+    color: #eee;
     background-color: #ed246a;
     border: 1px solid #ed246a;
 }
@@ -219,6 +225,5 @@ header nav a:hover {
 .section1 {
     display: flex;
     justify-content: space-around;
-    color: #201e21;
-    border: 1px solid black;
+    color: #eee;
 }
