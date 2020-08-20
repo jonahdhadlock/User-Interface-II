@@ -199,6 +199,7 @@ header nav a:hover {
     flex-direction: column;
     width: 34%;
     text-align: center;
+    border: 1px solid white;
 }
 
 #section1-5 a {
@@ -217,14 +218,16 @@ header nav a:hover {
 }
 
 #info {
-    margin: 10% 10%;
+    margin: 5% 5%;
     font-size: 2.8rem;
     text-align: left;
+    border: 1px solid white;
 }
 
 .section1 {
     display: flex;
     color: #eee;
+    border: 1px solid white;
 }
 
 .section2 {
@@ -232,6 +235,7 @@ header nav a:hover {
     flex-wrap: wrap;
     margin: 5%;
     text-align: center;
+    border: 1px solid white;
 }
 
 .section2 a {
