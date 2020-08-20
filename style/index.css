@@ -197,15 +197,13 @@ header nav a:hover {
 #section1-5 {
     display: flex;
     flex-direction: column;
-    width: 34%;
+    width: 50%;
     text-align: center;
-    border: 1px solid white;
 }
 
 #section1-5 a {
     font-size: 2.4rem;
     padding: .5%;
-    border: 1px solid #eee;
     color: #eee;
     background-color: #0996ed;
     text-decoration: none;
@@ -218,16 +216,14 @@ header nav a:hover {
 }
 
 #info {
-    margin: 5% 5%;
+    margin: 5% 0%;
     font-size: 2.8rem;
     text-align: left;
-    border: 1px solid white;
 }
 
 .section1 {
     display: flex;
     color: #eee;
-    border: 1px solid white;
 }
 
 .section2 {
@@ -235,19 +231,21 @@ header nav a:hover {
     flex-wrap: wrap;
     margin: 5%;
     text-align: center;
-    border: 1px solid white;
+    justify-content: center;
 }
 
 .section2 a {
     display: flex;
     flex-wrap: wrap;
     font-size: 2rem;
+    text-align: center;
     text-decoration: none;
     color: #eee;
     width: 100px;
     height: 100px;
     background: purple;
     align-items: center;
+    margin: 10px;
 }
 
 footer {
@@ -305,6 +303,13 @@ footer a {
         height: 100pv;
         align-items: center;
     }
+    #section1-5 {
+        width: 75%;
+    }
+    #section1-5 a {
+        width: 50%;
+        margin-left: 25%;
+    }
     #portrait {
         width: 150px;
         height: 150px;
@@ -334,9 +339,4 @@ footer a {
 
 
 }
-@media (max-width: 800px) {
-    header {
-        display: flex;
-        flex-direction: column;
-    }
-}
+@media (max-width: 800px) {}
