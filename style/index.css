@@ -227,6 +227,13 @@ header nav a:hover {
     color: #eee;
 }
 
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    text-align: center;
+}
+
 .section2 a {
     display: flex;
     flex-wrap: wrap;
@@ -235,9 +242,27 @@ header nav a:hover {
     color: #eee;
     width: 100px;
     height: 100px;
-    margin: 5%;
     background: purple;
     align-items: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 2rem;
+    color: #eee;
+    background-color: #ed246a;
+    padding: 2%;
+}
+
+footer p {
+    margin: 2%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+    background-color: #201e21;
+    padding: 3px;
 }
 
 @media (max-width: 500px) {
@@ -284,6 +309,22 @@ header nav a:hover {
     }
     .section1 div a {
         display: flex;
+    }
+    footer {
+        text-align: center;
+        font-size: 2rem;
+        color: #eee;
+        background-color: #ed246a;
+        padding: 10px;
+    }
+    footer a {
+        text-decoration: none;
+        color: #eee;
+        background-color: #201e21;
+        padding: 3px;
+    }
+    footer p {
+        margin: 5%;
     }
 }
 
